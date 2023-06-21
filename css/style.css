@@ -1,0 +1,482 @@
+@font-face {
+    font-family: 'AmaticSC-Regular';
+    src: url(../media/fonts/Amatic_SC/AmaticSC-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: 'AmaticSC-Bold';
+    src: url(../media/fonts/Amatic_SC/AmaticSC-Bold.ttf);
+}
+
+
+body
+{
+    background-color: white;
+}
+
+
+.navbar-nav
+{
+    font-size: 36px;
+    font-family: 'AmaticSC-Bold';
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.navbar-expand-lg
+{
+    margin-left: 20px;
+}
+
+
+.cover
+{
+    background: url(../media/breadcover2.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: justify;
+    font-family: 'AmaticSC-Bold';
+    font-weight: bold;
+    font-size: 96px;
+    color: white;
+    height: 700px;
+}
+
+.cover-center
+{
+    background: url(../media/morebread.jpeg) no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    font-family: 'AmaticSC-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 96px;
+    color: white;
+    height: 700px;
+    
+}
+
+.cover-center2
+{
+    background: url(../media/breadcover3.jpg) no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    font-family: 'AmaticSC-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 96px;
+    color: white;
+    height: 700px;
+    
+}
+
+
+.cover > p
+{
+    margin-left: 100px;
+}
+
+#synopsis h1
+{
+    position: relative;
+    text-align: center;
+    font-family: 'AmaticSC-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: black;
+    
+}
+
+#synopsis 
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color: black;
+}
+
+
+
+
+.contacts
+{
+    padding-left: 10px;
+    position: relative;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.footer_items
+{
+    margin: 0; 
+    padding: 5px;
+}
+
+#footer_item
+{
+    display: inline; 
+    margin-right: 15px; 
+}
+
+.bakery_foods
+{
+    margin-top: 28px;
+    border: 2px solid rgb(226, 226, 226);
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.bakery_foods h2
+{
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    font-family: 'AmaticSC-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: black;
+    
+}
+
+
+.card
+{
+    font-family: 'AmaticSC-Bold', sans-serif;
+    font-size: 28px;
+    height: 580px;
+    margin: 50px;
+    width: 350px;
+}
+
+#bakery_fooditems
+{
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin-left: 28px;
+   
+    padding: 10px;
+}
+
+
+
+
+#price
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+
+#order-button
+{
+    background: #04bd70;
+    cursor: pointer;
+    padding: 9px 20px;
+    border: none;
+    border-radius: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    transition: all 0.5s ease 0s;
+    margin-top: 20px;
+}
+
+
+.open-modal2{
+    font-size: 16px;
+    font-family: "Montserrat";
+    background-color: rgb(235, 182, 117);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    
+}
+
+.open-modal2:hover{
+    background-color: rgb(175, 122, 58);
+    color: white;
+    font-family: "Montserrat";
+}
+
+.btn-danger:hover{
+    background-color: rgb(172, 40, 40);
+
+}
+
+
+#carouselExample
+{
+    height: 700px;
+    width: 98%;
+}
+
+.card-title
+{
+    font-size: 32px;
+    font-family: "AmaticSC-Bold"
+}
+
+.card-text
+{
+    font-size: 24px;
+    font-family: "AmaticSC-Bold"
+}
+
+
+#wheretofind
+{
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+#wheretofind h3
+{
+    font-size: 60px;
+    font-family: "AmaticSC-Bold";
+    text-align: center;
+
+}
+
+
+
+
+#wheretofind_contents{
+    margin-top: 30px;
+    display: flex;
+    font-family: "AmaticSC-Bold";
+    font-size: 32px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+#wheretofind_text
+{
+    margin: 20px;
+}
+
+#subtitle
+{
+    font-size: 48px;
+}
+
+#wheretofind_map
+{
+    margin: 20px;
+}
+
+#map{
+    border-radius: 8px;
+
+}
+
+
+.push_messages
+{
+    background: url(../media/breadcover4.jpg) no-repeat;
+    background-size: 100% 600px;
+    font-family: 'AmaticSC-Bold';
+    font-weight: bold;
+    font-size: 96px;
+    color: white;
+    margin-bottom: 40px;
+    
+}
+
+.push_messages h3{
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 48px;
+}
+
+
+.push_messages_contents{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+    font-family: "AmaticSC-Bold";
+    font-size: 32px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color:black;
+    padding-bottom: 40px;
+}
+
+.push_messages_text
+{
+    margin: 20px;
+}
+
+
+.push_messages_form{ 
+    display: flex;
+    padding-left: 20px;
+}
+
+.push_messages_form input{
+ 
+    border-radius: 8px;
+}
+
+#pushinput
+{
+    font-family: "Montserrat";
+    font-size: 24px;
+    width: 320px;
+}
+
+
+#pricetag
+{
+    font-family: "AmaticSC-Bold";
+    font-size: 28px;
+}
+
+
+
+.popupbg
+{
+    width: 100%;
+    height: 100%;
+    background: rgba(29, 29, 29, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+
+
+.orderpopup {
+    position: fixed;
+    background: #f1ebeb;
+    width: 46%;
+    height: 550px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    border: 1px solid #bfbaba;
+    padding: 10px;
+    box-shadow: 0 12px 20px -10px;
+    text-align: center;
+    z-index: 1;
+    display: none;
+    font-family: "Montserrat";
+    }
+
+.orderpopup span{
+    position: fixed;
+    top: 0;
+    right: 5px;
+    cursor: pointer;
+    font-size: 40px;
+    }
+
+
+.orderpopup h3
+{
+    font-family: "AmaticSC-Bold";
+    font-size: 40pt;
+    padding-bottom: 20px;
+}
+
+
+.orderpopup input
+{
+    font-family: "Montserrat";
+    font-size: 18px;
+    width: 320px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.orderpopup select
+{
+    font-family: "Montserrat";
+    font-size: 18px;
+    width: 320px;
+    border: 2px solid black;
+    border-radius: 6px;
+    
+}
+
+
+.btnsubscribe
+{
+    font-size: 16px;
+    font-family: "Montserrat";
+    background-color: rgb(235, 182, 117);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-color: rgb(235, 182, 117);
+    border-radius: 6px;
+}
+
+
+.btnsubscribe:hover{
+    border-color: rgb(235, 182, 117);
+    background-color: rgb(175, 122, 58);
+    color: white;
+    font-family: "Montserrat";
+}
+
+
+.ordercards
+{
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+}
+
+.ordercard
+{
+    background-color: white;
+    font-family: 'AmaticSC-Bold', sans-serif;
+    font-size: 24px;
+    height: 270px;
+    margin: 10px;
+    width: 230px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+
+#miniprice
+{
+    font-size: 28px;
+}
+
+
+#minicardimg
+{
+    width: 110px;
+    border-radius: 6px;
+    
+}

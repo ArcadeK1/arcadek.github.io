@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пекарня «Хлебушек» | Главная </title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+  
+
+    <!--Header start-->
+    <header>
+        <nav id="breadnavbar" class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="media/хлебушек.png" alt="logo"  height="120">
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#synopsis">О нас</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#bakery_fooditems">Продукция</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#wheretofind">Где нас найти?</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!--Header end-->
+
+
+    <div data-bs-spy="scroll" data-bs-target="#breadnavbar" data-bs-smooth-scroll="true" class="scrollspy" tabindex="0">
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="cover">
+                <p>&nbsp;</p>
+                <p id = "carouselstr"></p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="cover-center">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>Работаем с 2018 года</p> 
+                <p>&nbsp;</p>
+            </div>
+        
+          </div>
+          <div class="carousel-item">
+            <div class="cover-center2">
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <p>Cкидка 10% в понедельник на всю продукцию</p> 
+              <p>&nbsp;</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!--Style block cover start-->
+  
+    <!--Style block cover end-->
+
+
+   
+
+
+    <!--This block has some basic info about bakery-->
+
+
+
+    <div id = "synopsis">
+        <h1>О НАС</h1>
+        <p>Мы предлагаем только свежую качественную продукцию, которую любят взрослые и дети. <br> 
+        Пекарня «Хлебушек» - это аромат свежеиспеченного хлеба, домашняя пышная выпечка, <br> хрустящие багеты и вкуснейшие пироги, пекарь в белоснежном колпаке 
+        и довольные <br> счастливые покупатели! </p>
+        <p>Мы открываемся рано утром и работаем до позднего вечера для того,<br> чтобы Вы могли приобрести только свежий хлеб и выпечку!</p>
+        <p>Качество, традиции и разнообразие вкусов – пекарня «Хлебушек» <br> найдет путь к сердцу самого требовательного покупателя!</p>
+    </div>
+    <!--Bakery info block end-->
+
+   
+    
+
+
+    <!--Bakery Products (Продукция)-->
+    <div class="bakery_foods">
+        <h2>Продукция</h2>
+
+        
+        <div id="bakery_fooditems">
+          
+          <div class="orderpopup" style="display: none;">
+            <h3>Заказывайте любимую выпечку прямо сейчас!</h3>
+             <form>
+              <div class="ordercards">
+
+                  <div class="ordercard">
+                    <img src="media/classic-bread.png" height="90" id = "minicardimg" alt="Хлебмини">
+                    <p>Домашний хлеб, 800 г.</p>
+                    <p id = "miniprice">23 рубля</p>
+                    <label>Количество:</label>
+                    <input id = "amounts1" type="number" maxlength="1" required><br>
+                  </div>
+
+                  <div class="ordercard">
+                    <img src="media/sweetbuns.jpg" height="90" id = "minicardimg" alt="булочкасладкая">
+                    <p>Булочка "Сладкая"</p>
+                    <p id = "miniprice">15 рублей</p>
+                    <label>Количество:</label>
+                    <input id = "amounts2" type="number" maxlength="1" required><br>
+                  </div>
+
+                  <div class="ordercard">
+                    <img src="media/baguette.jpg" height="90" id = "minicardimg" alt="багетмини">
+                    <p>Багет "Чесночный", 500 г.</p>
+                    <p id = "miniprice">21 рубль</p>
+                    <label>Количество:</label>
+                    <input id = "amounts3" type="number" maxlength="1" required><br>
+                  </div>
+
+                  <div class="ordercard">
+                    <img src="media/croissant.jpg" height="90" id = "minicardimg" alt="круассанмини">
+                    <p>Круассан с шоколадом</p>
+                    <p id = "miniprice">12 рублей</p>
+                    <label>Количество:</label>
+                    <input id = "amounts4" type="number" maxlength="1" required><br>
+                  </div>
+              </div>
+
+            <input type="text" placeholder="Ваше имя" required><br>
+            <input type="email" placeholder="Введите email" required><br>
+            <input type="submit" name="btn-form-popup" value="Отправить">
+            </form>
+            <span>×</span>
+        </div>
+      
+      <div class="popupbg" style="display: none;"></div>
+            <div class="card">
+              <div class="popupbg" style="display: none;"></div>
+                <img src="media/classic-bread.png" class="card-img-top" height="250" alt="Хлеб">
+                <div class="card-body">
+                  <h5 class="card-title">Домашний хлеб, 800 г.</h5>
+                  <p id="pricetag">23 рубля</p>
+                  <p class="card-text">Классический пшеничный хлеб из качественной муки и теста.</p>
+                  <p id="bakedate1"></p>
+                  <a href="#" class="open-modal2">Заказать</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="popupbg" style="display: none;"></div>
+                <img src="media/sweetbuns.jpg" class="card-img-top" height="250" alt="Булочка Сладкая">
+                <div class="card-body">
+                  <h5 class="card-title">Булочка "Сладкая"</h5>
+                  <p id="pricetag">15 рублей</p>
+                  <p class="card-text">Вкусная булочка с сахаром.</p>
+                  <p id="bakedate2"></p>
+                  <a href="#" class="open-modal2">Заказать</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="popupbg" style="display: none;"></div>
+                <img src="media/baguette.jpg" class="card-img-top" height="250" alt="Багет Чесночный">
+                <div class="card-body">
+                  <h5 class="card-title">Багет "Чесночный", 500 г.</h5>
+                  <p id="pricetag">21 рубль</p>
+                  <p class="card-text">Вкуснейший чесночный багет из качественной муки и теста.</p>
+                  <p id="bakedate3"></p>
+                  <a href="#" class="open-modal2">Заказать</a>
+                </div>
+              </div>
+              <div class="card">
+                <div class="popupbg" style="display: none;"></div>
+                <div class="popupbg" style="display: none;"></div>
+                <img src="media/croissant.jpg" class="card-img-top" height="250" alt="Круассан с шоколадом">
+                <div class="card-body">
+                  <h5 class="card-title">Круассан с шоколадом</h5>
+                  <p id="pricetag">12 рублей</p>
+                  <p class="card-text">Воздушная французская выпечка к чашке чая или кофе.</p>
+                  <p id="bakedate4"></p>
+                  <a href="#" class="open-modal2">Заказать</a>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <!--Bakery Products End (Конец блока Продукция)-->
+        
+
+    <div id="wheretofind">
+      <h3> Где нас найти?</h3>
+
+      <div id="wheretofind_contents">
+          <div id = "wheretofind_text">
+            <p id ="subtitle">Адрес:</p>
+            <p>г. Курган, ул. Коли Мяготина, 91</p>
+
+            <p id ="subtitle">Часы работы:</p>
+            <p>9:00 - 21:00</p>
+
+          </div>
+          <div id = "wheretofind_map">
+            <img src = "media/map.png" height="350" id="map" alt = "map">
+
+          </div>
+      </div>
+    </div>
+
+    <div class="push_messages">
+      <h3>Подпишитесь на рассылку</h3>
+      <div class="push_messages_contents">
+        <div class = "push_messages_text">
+          <p>Оставайтесь в курсе событий!</p>
+          <p>Наш email: breadie@gmail.com</p>
+          <p>Наш телефон: +7 (3522) 43-23-25</p>
+        </div>
+        <div class="push_messages_form">
+          <form>
+            <label for="">Ваш email:</label>
+            
+            <input id = "pushinput" type="email" required>
+
+            <label style="padding-left: 20px;" >Ваше имя</label>
+            <input id = "pushinput" type="text" required>
+
+            <input type="submit" value="Подписаться" class="btnsubscribe"></input> <br>
+          </form>
+
+        </div>
+        
+    </div>
+    <br>
+
+    </div>
+
+
+    <footer>
+      
+        <div class = "contacts">
+            <ul class = "footer_items">
+                <hr>
+                <li id = "footer_item"> &copy; Пекарня «Хлебушек», 2023</li>
+                <li id = "footer_item"> &#128241; +7 (3522) 43-23-25</li>
+                <div class="popupbg" style="display: none;"></div>
+            </ul>
+        </div>
+
+    </footer>
+
+    <script src="js/jquery-2.0.2.min.js"></script>
+    <script src="js/bread.js"></script>
+    <script src="js/bootstrap.js"></script>
+    
+    <script>
+      $(document).ready(function(){
+  
+     
+      $('.open-modal2').click(function(){
+      $('.orderpopup, .popupbg ').fadeIn();
+      })
+      $('.orderpopup span').click(function(){
+      $('.orderpopup, .popupbg ').fadeOut();
+      })
+      
+
+      });
+
+      $('body').on('input', 'input[type="number"][maxlength]', function(){
+	    if (this.value.length > this.maxLength){
+		    this.value = this.value.slice(0, this.maxLength);
+	      }
+          });
+
+          $('body').on('input', '#amounts1', function(){
+	          this.value = this.value.replace(/[^0-9]/g, '');
+            });  
+
+            $('body').on('input', '#amounts2', function(){
+	          this.value = this.value.replace(/[^0-9]/g, '');
+            });  
+            $('body').on('input', '#amounts3', function(){
+	          this.value = this.value.replace(/[^0-9]/g, '');
+            });  
+            $('body').on('input', '#amounts4', function(){
+	          this.value = this.value.replace(/[^0-9]/g, '');
+            });  
+      </script>
+
+</body>
+</html>
